@@ -58,7 +58,7 @@ export default function AttorneysSection() {
   );
 }
 
-function SocialButton({ icon: Icon }) {
+function SocialButton({ icon: Icon }: { icon: any }) {
   return (
     <button className="p-3 bg-gray-100 rounded-full text-[#011C1A] hover:bg-[#D4AF37] hover:text-[#011C1A] transition-all duration-300 ease-in-out">
       <Icon size={16} />
