@@ -10,12 +10,10 @@ import {
   Quote, 
   PhoneCall, 
   Clock, 
-  Facebook, 
-  Twitter, 
-  Linkedin, 
   MessageSquare, 
   Send 
 } from 'lucide-react';
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 
 const relatedBlogs = [
   {
